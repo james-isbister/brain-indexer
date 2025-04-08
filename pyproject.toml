@@ -6,8 +6,8 @@ authors = [{ name="Blue Brain Project", email = "bbp-ou-hpc@epfl.ch" } ]
 license = {"file" = "LICENSE.txt"}
 # maintainer is the field chosen for docs `contributors`
 maintainers = [{name="Fernando Pereira"}, {name="Antonio Bellotta"}, {name="Luc Dominic Grosheintz-Laval"}]
-# dynamic = ["version"]
-version = "3.0.0"
+dynamic = ["version"]
+# version = "3.0.0"
 
 classifiers = [
    "Development Status :: 3 - Alpha",
@@ -59,7 +59,7 @@ logging.level = "DEBUG"
 
 [tool.scikit-build.cmake]
 verbose = true
-minimum-version = "3.5.0"
+minimum-version = "4.0.0"
 
 [tool.scikit-build.cmake.define]
 SI_UNIT_TESTS="OFF"
