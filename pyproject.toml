@@ -6,7 +6,7 @@ authors = [{ name="Blue Brain Project", email = "bbp-ou-hpc@epfl.ch" } ]
 license = {"file" = "LICENSE.txt"}
 # maintainer is the field chosen for docs `contributors`
 maintainers = [{name="Fernando Pereira"}, {name="Antonio Bellotta"}, {name="Luc Dominic Grosheintz-Laval"}]
-dynamic = ["version"]
+# dynamic = ["version"]
 version = "3.0.0"
 
 classifiers = [
