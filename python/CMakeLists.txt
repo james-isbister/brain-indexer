@@ -1,5 +1,3 @@
-cmake_minimum_required(VERSION 4.0)
-
 set(PY_BINDINGS_SOURCES py_bindings.cpp)
 
 pybind11_add_module(_brain_indexer  ${PY_BINDINGS_SOURCES})
