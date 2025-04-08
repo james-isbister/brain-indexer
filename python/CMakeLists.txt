@@ -1,3 +1,4 @@
+cmake_minimum_required(VERSION 4.0)
 
 set(PY_BINDINGS_SOURCES py_bindings.cpp)
 
