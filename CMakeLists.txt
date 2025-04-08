@@ -85,7 +85,8 @@ endif()
 # Py-bindings with PyBind11
 #
 if(SI_PYTHON_BINDINGS)
-    find_package(PythonInterp REQUIRED)
+    # find_package(PythonInterp REQUIRED)
+    find_package(Python3 COMPONENTS Interpreter REQUIRED)
     add_subdirectory(3rdparty/pybind11)
     add_subdirectory(python)
 endif()
