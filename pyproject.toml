@@ -46,8 +46,8 @@ requires = [
     # this is because Spack does not yet have version 0.8, which
     # replaced `scikit-build.cmake.minimum-version` with
     # `scikit-build.cmake.version`
-    #"scikit-build-core=0.11.1",
-    #"setuptools-scm>=8.0",
+    "scikit-build-core=0.11.1",
+    "setuptools-scm>=8.0",
 ]
 build-backend = "scikit_build_core.build"
 
