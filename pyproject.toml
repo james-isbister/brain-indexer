@@ -46,8 +46,8 @@ requires = [
     # this is because Spack does not yet have version 0.8, which
     # replaced `scikit-build.cmake.minimum-version` with
     # `scikit-build.cmake.version`
-    "scikit-build-core=0.11.1",
-    "setuptools-scm>=8.0",
+    #"scikit-build-core=0.11.1",
+    #"setuptools-scm>=8.0",
 ]
 build-backend = "scikit_build_core.build"
 
@@ -58,7 +58,7 @@ logging.level = "DEBUG"
 
 [tool.scikit-build.cmake]
 verbose = true
-minimum-version = "4.0.0"
+version = "4.0.0"
 
 [tool.scikit-build.cmake.define]
 SI_UNIT_TESTS="OFF"
